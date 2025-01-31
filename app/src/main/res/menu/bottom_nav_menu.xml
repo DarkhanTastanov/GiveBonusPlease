@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/playbackFragment"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Record"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/recordFragment"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Playback"
+        app:showAsAction="ifRoom" />
+
+</menu>
